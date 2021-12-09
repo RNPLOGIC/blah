@@ -48,7 +48,7 @@ function setup(){
     World.add(world,particle5);
 
     var rotator_options={
-      isStatic:false
+      isStatic:true
       
     };
      rotator1 = Bodies.rectangle(250,200,150,20,rotator_options);
